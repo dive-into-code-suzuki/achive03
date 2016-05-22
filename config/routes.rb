@@ -1,10 +1,4 @@
 Rails.application.routes.draw do
-  get 'contact/new'
-
-  get 'contact/confirm'
-
-  get 'contact/thanks'
-
   root to: "top#index"
   resources :blogs
   
