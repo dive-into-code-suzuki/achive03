@@ -1,12 +1,14 @@
 // Place all the styles related to the top controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body {
-    background-image: image-url("back.jpg") ;
-    background-repeat: no-repeat;
-    background-position: center center;
+.jumbotron{
+background: #000 url("back.jpg") center center;
+    background-size: cover;
+    h1,p{
+        text-align: center;
+        margin-top: 20px;
+    }
 }
-
 h1 {
     color : white;
     margin : 250px auto auto auto;
